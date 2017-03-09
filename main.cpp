@@ -11,11 +11,16 @@ using namespace std;
 int main() {
 //Display Name block and Welcome Message
 
+  //Get input file and set up:
   string filename;
   cout << "Please enter the name of the data file:\n";
   getline(cin, filename);
   LinkedList<Professor> professors = setup(filename);
+  
+  //User Interaction:
   controlMenu(professors);
+  
+  //End Porgram and Print Data:
   exit(filename, professors);
   return 0;
 }
