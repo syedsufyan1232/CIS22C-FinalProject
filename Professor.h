@@ -2,6 +2,9 @@
 #def _Professor_H_
 
 #include <string>
+#include "Rating.h"
+
+using namespace std;
 
 class Professor {
 private:
